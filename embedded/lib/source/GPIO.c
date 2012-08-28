@@ -96,4 +96,8 @@ short int read_value(short int port, short int pin)
 		return (1<<pin) & P1IN;
 	else if (2 == port)
 		return (1<<pin) &  P2IN;
+	
+	// this return staments for defeating compiler's warning 
+	// "missing return statements"
+	return SUCCESS;
 }

@@ -1780,11 +1780,17 @@
       <file>
         <name>$PROJ_DIR$\..\lib\include\GPIO.h</name>
       </file>
+      <file>
+        <name>$PROJ_DIR$\..\lib\include\spi.h</name>
+      </file>
     </group>
     <group>
       <name>src</name>
       <file>
         <name>$PROJ_DIR$\..\lib\source\GPIO.c</name>
+      </file>
+      <file>
+        <name>$PROJ_DIR$\..\lib\source\spi.c</name>
       </file>
     </group>
   </group>

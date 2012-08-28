@@ -2,32 +2,36 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>2970609931</fileChecksum>
+  <fileChecksum>2398164116</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
-      <file>$PROJ_DIR$\Debug\Exe\msp430_ide.d43</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
       <file>$PROJ_DIR$\Debug\Obj\GPIO.r43</file>
+      <file>$TOOLKIT_DIR$\inc\in430.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\GPIO.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\msp430_ide.d43</file>
       <file>$PROJ_DIR$\..\lib\source\GPIO.c</file>
       <file>$PROJ_DIR$\..\lib\main.c</file>
       <file>$PROJ_DIR$\..\lib\include\GPIO.h</file>
       <file>$PROJ_DIR$\Debug\Obj\msp430_ide.pbd</file>
-      <file>$TOOLKIT_DIR$\config\lnk430G2553.xcl</file>
       <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-      <file>$PROJ_DIR$\Debug\Obj\GPIO.pbi</file>
+      <file>$TOOLKIT_DIR$\config\lnk430G2553.xcl</file>
+      <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
       <file>$TOOLKIT_DIR$\inc\io430g2553.h</file>
-      <file>$TOOLKIT_DIR$\inc\in430.h</file>
       <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
       <file>$TOOLKIT_DIR$\inc\io430.h</file>
+      <file>$PROJ_DIR$\..\lib\include\spi.h</file>
+      <file>$PROJ_DIR$\..\lib\source\spi.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.r43</file>
     </outputs>
     <file>
       <name>$PROJ_DIR$\Debug\Exe\msp430_ide.d43</name>
       <inputs>
         <tool>
           <name>XLINK</name>
-          <file> 8 3 9 2</file>
+          <file> 9 0 8 18 10</file>
         </tool>
       </inputs>
     </file>
@@ -36,21 +40,21 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 10</file>
+          <file> 2</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 3</file>
+          <file> 0</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 6 14 11 12 13</file>
+          <file> 6 14 12 1 13</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 6 14 11 12 13</file>
+          <file> 6 14 12 1 13</file>
         </tool>
       </inputs>
     </file>
@@ -59,21 +63,21 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 1</file>
+          <file> 11</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 9</file>
+          <file> 8</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 6 14 11 12 13</file>
+          <file> 6 14 12 1 13</file>
         </tool>
         <tool>
           <name>ICC430</name>
-          <file> 6 14 11 12 13</file>
+          <file> 6 14 12 1 13</file>
         </tool>
       </inputs>
     </file>
@@ -82,7 +86,7 @@
       <inputs>
         <tool>
           <name>BILINK</name>
-          <file> 10 1</file>
+          <file> 2 11 17</file>
         </tool>
       </inputs>
     </file>
@@ -91,9 +95,32 @@
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 0</file>
+          <file> 3</file>
         </tool>
       </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\lib\source\spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>ICC430</name>
+          <file> 15</file>
+        </tool>
+      </inputs>
     </file>
   </configuration>
   <configuration>

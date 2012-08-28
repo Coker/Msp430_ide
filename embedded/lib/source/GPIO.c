@@ -86,3 +86,14 @@ short int interrupt_command(short int port, short int pin, short int edge)
 	
 	return SUCCESS;
 }
+
+short int read_value(short int port, short int pin)
+{
+	if (port>2 || pin>7 || port<1 || pin<0)
+		return ERROR_STAT;
+	
+	if (1 == port)
+		return (1<<pin) & P1IN;
+	else if (2 == port)
+		return (1<<pin) &  P2IN;
+}

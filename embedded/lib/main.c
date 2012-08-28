@@ -39,15 +39,14 @@ void main( void )
 	BCSCTL1= CALBC1_1MHZ; //DCOCLK 1MHZ Seçiliyor...
 	DCOCTL = CALDCO_1MHZ;
 	
-	_BIS_SR(GIE);    //Genel Kesmeler aktif...
+	_BIS_SR(GIE); // General interrupt activated
 	
-	while(1); //Ýþlemci sonsuz dögüde býrakýlýp,
-	//harici kesmenin gelmesi bekleniyor.
+	while(1); 
 }
 
 #pragma vector=PORT1_VECTOR
-//P1 Kesme Vektörü Tanýmlanýyor... 
-__interrupt void P1_Kesmesi(void)
+//P1 Interrupt Vektörü Tanýmlanýyor... 
+__interrupt void P1_Int_handler(void)
 {
    if(P1IFG & BIT3)
    {

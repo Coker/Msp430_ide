@@ -317,8 +317,8 @@
         </option>
         <option>
           <name>newCCIncludePaths</name>
-          <state>C:\Users\embedded\Desktop\Msp430_IDE\embedded\lib\source</state>
-          <state>C:\Users\embedded\Desktop\Msp430_IDE\embedded\lib\include</state>
+          <state>C:\Users\embedded\Desktop\Msp430_ide\embedded\lib\source</state>
+          <state>C:\Users\embedded\Desktop\Msp430_ide\embedded\lib\include</state>
         </option>
         <option>
           <name>CCStdIncCheck</name>

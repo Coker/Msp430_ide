@@ -18,5 +18,6 @@ short int set_dir(short int port_num, short int pin_num, short int dir);
 short int set_pullup_resistors(short int port, short int pin);
 short int set_value(short int port, short pin);
 short int interrupt_command(short int port, short int pin, short int edge);
+short int read_value(short int port, short int pin);
 
 #endif
